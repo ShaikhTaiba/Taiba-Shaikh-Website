@@ -3,11 +3,10 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # Trigger deployment when changes are pushed to the 'main' branch
+      - main  # Deploy when changes are pushed to the main branch
 
 jobs:
   build:
-    name: Build
     runs-on: ubuntu-latest
 
     steps:
@@ -33,11 +32,11 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2  # To ensure the latest changes are checked out
+        uses: actions/checkout@v2
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist  # Adjust this to your build output directory
-          target_branch: gh-pages  # The branch for GitHub Pages
+          publish_dir: ./dist  # The build output directory
+          target_branch: gh-pages  # The branch to deploy to

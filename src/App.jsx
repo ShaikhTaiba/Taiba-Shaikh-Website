@@ -9,6 +9,7 @@ import Projects from './sections/Projects.jsx';
 
 const App = () => {
   return (
+    <BrowserRouter basename="/Taiba-Shaikh-Website">
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
       <Hero />
@@ -17,7 +18,9 @@ const App = () => {
       <Experience />
       <Contact />
       <Footer />
+      
     </main>
+    </BrowserRouter>
   );
 };
 

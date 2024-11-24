@@ -7,6 +7,10 @@ on:
 
 jobs:
   build:
+<<<<<<< HEAD
+=======
+    name: Build
+>>>>>>> d83ce9da488789f08e55f4cda9765875397fc631
     runs-on: ubuntu-latest
 
     steps:
@@ -14,7 +18,11 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Set up Node.js
+<<<<<<< HEAD
         uses: actions/setup-node@v2
+=======
+        uses: actions/setup-node@v2  # Updated to v2
+>>>>>>> d83ce9da488789f08e55f4cda9765875397fc631
         with:
           node-version: '18'
 
@@ -24,9 +32,28 @@ jobs:
       - name: Build the project
         run: npm run build
 
+<<<<<<< HEAD
+=======
+  deploy:
+    name: Deploy to GitHub Pages
+    needs: build
+    runs-on: ubuntu-latest
+    if: github.ref == 'refs/heads/main'  # Ensure deployment only happens from the main branch
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2  # To ensure the latest changes are checked out
+
+>>>>>>> d83ce9da488789f08e55f4cda9765875397fc631
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+<<<<<<< HEAD
           publish_dir: ./dist  # Folder to deploy from
           target_branch: gh-pages  # The branch to push to (GitHub Pages branch)
+=======
+          publish_dir: ./dist  # This is where your production build is located
+          target_branch: gh-pages  # This is the branch that will be used for GitHub Pages
+
+>>>>>>> d83ce9da488789f08e55f4cda9765875397fc631

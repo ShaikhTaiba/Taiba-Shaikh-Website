@@ -6,10 +6,8 @@ import Hero from './sections/Hero.jsx';
 import Navbar from './sections/Navbar.jsx';
 import Projects from './sections/Projects.jsx';
 
-
 const App = () => {
   return (
-    <BrowserRouter basename="/Taiba-Shaikh-Website">
     <main className="max-w-7xl mx-auto relative">
       <Navbar />
       <Hero />
@@ -20,7 +18,6 @@ const App = () => {
       <Footer />
       
     </main>
-    </BrowserRouter>
   );
 };
 

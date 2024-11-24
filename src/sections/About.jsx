@@ -17,7 +17,7 @@ const About = () => {
         <div className="grid xl:grid-cols-3 xl:grid-rows-6 md:grid-cols-2 grid-cols-1 gap-5 h-full">
             <div className="xl:row-span-3 col-span-1">
                 <div className="grid-container">
-                    <img src="/assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain " />
+                    <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain " />
                     <div>
                       <p className="grid-headtext">Hi, I'm Taiba Shaikh</p>
                       <p className="grid-subtext">Passionate data scientist and full-stack developer with expertise in AI/ML, creative web design, and data analytics. Combining tech leadership and innovative problem-solving to deliver impactful solutions and immersive experiences</p>
@@ -26,7 +26,7 @@ const About = () => {
             </div>
             <div className="col-span-1 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain" />
+                    <img src="assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain" />
                     <div>
                         <p className="grid-headtext">Tech Stack</p>
                         <p className="grid-subtext">
@@ -64,7 +64,7 @@ const About = () => {
             </div>
             <div className="xl:col-span-2 xl:row-span-3">
                 <div className="grid-container">
-                    <img src="/assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
+                    <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                     <div>
                         <p className="grid-headtext">My Passion for Coding</p>
                         <p className="grid-subtext">Programming isn't just my profession - it's my passion. i love to code and I am always looking for new ways to improve my skills. I am constantly learning new technologies, languages, and techniques to stay ahead of the curve. I am a firm believer in the power of technology to change the world and I am excited to be a part of that change.</p>

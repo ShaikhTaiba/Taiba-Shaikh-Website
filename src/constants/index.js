@@ -28,19 +28,19 @@ export const navLinks = [
       subdesc:
         'Created with Node.js, Socket.IO, and React, ChatterSync integrates a modern Material-UI interface and backend scalability for a smooth, real-time chatting experience.',
       href: 'https://github.com/ShaikhTaiba/Chat-App',
-      texture: '/textures/project/project1.mp4',
-      logo: '/assets/project-logo1.png',
+      texture: 'textures/project/project1.mp4',
+      logo: 'assets/project-logo1.png',
       logoStyle: {
         backgroundColor: '#2A1816',
         border: '0.2px solid #36201D',
         boxShadow: '0px 0px 60px 0px #AA3C304D',
       },
-      spotlight: '/assets/spotlight1.png',
+      spotlight: 'assets/spotlight1.png',
       tags: [
         {
           id: 1,
           name: 'React.js',
-          path: '/assets/react.svg',
+          path: 'assets/react.svg',
         },
         {
           id: 2,
@@ -50,17 +50,17 @@ export const navLinks = [
         {
           id: 3,
           name: 'MongoDB',
-          path: '/assets/mongo.png',
+          path: 'assets/mongo.png',
         },
         {
           id: 4,
           name: 'Socket.IO',
-          path: '/assets/socketio.png',
+          path: 'assets/socketio.png',
         },
         {
           id: 5,
           name: 'Node.js',
-          path: '/assets/nodejs.png',
+          path: 'assets/nodejs.png',
         },
       ],
     },
@@ -70,19 +70,19 @@ export const navLinks = [
       subdesc:
         'Developed as a full-stack solution using Python, TensorFlow (VGG16 model), and Flask for the backend, along with a Tailwind CSS-powered front-end. RenalScan is optimized for performance with augmentation, adaptive learning rates, and advanced callback methods.',
       href: 'https://github.com/ShaikhTaiba/Kidney-Disease-Image-Classifier',
-      texture: '/textures/project/project2.mp4',
-      logo: '/assets/project-logo2.png',
+      texture: 'textures/project/project2.mp4',
+      logo: 'assets/project-logo2.png',
       logoStyle: {
         backgroundColor: '#13202F',
         border: '0.2px solid #17293E',
         boxShadow: '0px 0px 60px 0px #2F6DB54D',
       },
-      spotlight: '/assets/spotlight2.png',
+      spotlight: 'assets/spotlight2.png',
       tags: [
         {
           id: 1,
           name: 'Python',
-          path: '/assets/python.png',
+          path: 'assets/python.png',
         },
         {
           id: 2,
@@ -92,12 +92,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'MLflow',
-          path: '/assets/mlflow.png',
+          path: 'assets/mlflow.png',
         },
         {
           id: 4,
           name: 'Keras',
-          path: '/assets/keras.png',
+          path: 'assets/keras.png',
         },
       ],
     },
@@ -107,8 +107,8 @@ export const navLinks = [
       subdesc:
         'Built as an end-to-end project with Python, Flask, and NLP libraries like SpaCy and Hugging Face Transformers. The platform ensures high accuracy and usability through responsive web design and real-time processing.',
       href: 'https://github.com/ShaikhTaiba/Text-Summarization-Project',
-      texture: '/textures/project/project3.mp4',
-      logo: '/assets/project-logo3.png',
+      texture: 'textures/project/project3.mp4',
+      logo: 'assets/project-logo3.png',
       logoStyle: {
         backgroundColor: '#60f5a1',
         background:
@@ -121,7 +121,7 @@ export const navLinks = [
         {
           id: 1,
           name: 'Python',
-          path: '/assets/python.png',
+          path: 'assets/python.png',
         },
         {
           id: 2,
@@ -131,12 +131,12 @@ export const navLinks = [
         {
           id: 3,
           name: 'Github',
-          path: '/assets/github.png',
+          path: 'assets/github.png',
         },
         {
           id: 4,
           name: 'AWS',
-          path: '/assets/aws.png',
+          path: 'assets/aws.png',
         },
       ],
     },
@@ -160,7 +160,7 @@ export const navLinks = [
       pos: 'Math and Physics Tutor',
       duration: '2022 - 2024',
       title: "I am a skilled and passionate tutor with a strong background in Mathematics and Physics. My expertise includes teaching students in both subjects, ensuring they excel in their studies.",
-      icon: '/assets/freelance.png',
+      icon: 'assets/freelance.png',
       animation: 'victory',
     },
     {
@@ -169,7 +169,7 @@ export const navLinks = [
       pos: 'AI/ML Lead',
       duration: '2024 - present',
       title: "Specializing in AI/ML, I lead a team of passionate developers, contributing to cutting-edge projects and fostering innovation in the field of Artificial Intelligence and Machine Learning.",
-      icon: '/assets/gdg.png',
+      icon: 'assets/gdg.png',
       animation: 'clapping',
     },
   ];

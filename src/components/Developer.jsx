@@ -3,12 +3,12 @@ import { useAnimations, useFBX, useGLTF } from '@react-three/drei';
 
 const Developer = ({ animationName = 'idle', ...props }) => {
   const group = useRef();
-  const { nodes, materials } = useGLTF('/models/animations/developer.glb');
+  const { nodes, materials } = useGLTF('models/animations/developer.glb');
 
   // Load animations
-  const { animations: idleAnimation } = useFBX('/models/animations/idle.fbx');
-  const { animations: clappingAnimation } = useFBX('/models/animations/clapping.fbx');
-  const { animations: victoryAnimation } = useFBX('/models/animations/victory.fbx');
+  const { animations: idleAnimation } = useFBX('models/animations/idle.fbx');
+  const { animations: clappingAnimation } = useFBX('models/animations/clapping.fbx');
+  const { animations: victoryAnimation } = useFBX('models/animations/victory.fbx');
 
 
   // Name animations for easier access
@@ -95,6 +95,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
 };
 
 // Preload GLTF model
-useGLTF.preload('/models/animations/developer.glb');
+useGLTF.preload('models/animations/developer.glb');
 
 export default Developer;

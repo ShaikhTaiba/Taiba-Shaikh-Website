@@ -9,22 +9,22 @@ const Footer = () => {
         <div className="flex gap-3">
         <a href="https://github.com/ShaikhTaiba">
           <div className="social-icon">
-            <img src="/assets/github.svg" alt="github" className="w-1/2 h-1/2" />
+            <img src="assets/github.svg" alt="github" className="w-1/2 h-1/2" />
           </div>
         </a>
         <a href="https://www.linkedin.com/in/taiba-shaikh-15533a248/">
           <div className="social-icon">
-            <img src="/assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
+            <img src="assets/linkedin.svg" alt="linkedin" className="w-1/2 h-1/2" />
           </div>
         </a>
         <a href="https://twitter.com/taibashaikh025">
           <div className="social-icon">
-            <img src="/assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
+            <img src="assets/twitter.svg" alt="twitter" className="w-1/2 h-1/2" />
           </div>
         </a>
         <a href="https://www.instagram.com/sk_taibaa/">
           <div className="social-icon">
-            <img src="/assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
+            <img src="assets/instagram.svg" alt="instagram" className="w-1/2 h-1/2" />
           </div>
         </a>
         </div>

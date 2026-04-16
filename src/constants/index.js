@@ -116,7 +116,7 @@ export const navLinks = [
         border: '0.2px solid rgba(208, 213, 221, 1)',
         boxShadow: '0px 0px 60px 0px rgba(35, 131, 96, 0.3)',
       },
-      spotlight: '/assets/spotlight3.png',
+      spotlight: 'public/assets/spotlight3.png',
       tags: [
         {
           id: 1,
@@ -149,7 +149,7 @@ export const navLinks = [
       cubePosition: isSmall ? [4, -5, 0] : isMobile ? [5, -5, 0] : isTablet ? [5, -5, 0] : [9, -5.5, 0],
       reactLogoPosition: isSmall ? [3, 4, 0] : isMobile ? [5, 4, 0] : isTablet ? [5, 4, 0] : [12, 3, 0],
       ringPosition: isSmall ? [-5, 7, 0] : isMobile ? [-10, 10, 0] : isTablet ? [-12, 10, 0] : [-24, 10, 0],
-      targetPosition: isSmall ? [-5, -10, -10] : isMobile ? [-9, -10, -10] : isTablet ? [-11, -7, -10] : [-13, -13, -10],
+      targetPosition: isSmall ? [-5, -6, -10] : isMobile ? [-9, -6, -10] : isTablet ? [-11, 4, -10] : [-13, -8, -10],
     };
   };
   

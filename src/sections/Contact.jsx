@@ -40,9 +40,15 @@ const Contact = () => {
     <section className='c-space my-20' id="contact">
         <div className="relative min-h-screen flex items-center justify-center flex-col">
             <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen" />
-            <div className="contact-container">
-                <h3 className="head-text mt-10">Let's talk</h3>
-                <p className="text-lg text-white-600 mt-3">From crafting modern websites to building AI/ML-powered solutions, I bring your ideas to life with innovation and precision. Let’s create something extraordinary together!</p>
+            <div className="contact-container w-full max-w-full sm:max-w-2xl px-4 sm:px-0">
+                <h3 className="head-text mt-4 sm:mt-10">Let's talk</h3>
+                <p className="block sm:hidden text-sm text-white-600 mt-3">
+  Let’s build something amazing together!
+</p>
+
+<p className="hidden sm:block text-lg text-white-600 mt-3">
+  From crafting modern websites to building AI/ML-powered solutions, I bring your ideas to life with innovation and precision. Let’s create something extraordinary together!
+</p>
                 <form ref={formRef} onSubmit={handleSubmit} className="sm:mt-10 mt-5 flex flex-col sm:space-y-7 space-y-2">
                     <label className="space-y-3">
                         <span className="field-label">Full Name</span>

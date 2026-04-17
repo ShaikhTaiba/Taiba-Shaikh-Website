@@ -9,6 +9,7 @@
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
+    "build:gh": "VITE_BASE=/Taiba-Shaikh-Website/ vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },

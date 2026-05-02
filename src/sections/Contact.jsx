@@ -18,9 +18,9 @@ const Contact = () => {
     e.preventDefault();
     setLoading(true);
     try {
-        await emailjs.send('service_qazwbn9', 'template_llgg1dp', {from_name: form.name, to_name: 'Taiba', from_email: form.email, to_email: 'taibashaikh025@gmail.com', message: form.message
+        await emailjs.send('service_tkumeoa', 'template_llgg1dp', {from_name: form.name, to_name: 'Taiba', from_email: form.email, to_email: 'taibashaikh025@gmail.com', message: form.message
 
-        }, 'Cz0A_gPt8N37r1jO4')
+        }, 'hAumlYn-_mPguE9kT')
 
         setLoading(false);
         alert('Your message has been sent!');
@@ -41,13 +41,13 @@ const Contact = () => {
         <div className="relative min-h-screen flex items-center justify-center flex-col">
             <img src="assets/terminal.png" alt="terminal background" className="absolute inset-0 min-h-screen" />
             <div className="contact-container w-full max-w-full sm:max-w-2xl px-4 sm:px-0">
-                <h3 className="head-text mt-4 sm:mt-10">Let's talk</h3>
+                <h3 className="head-text mt-4 sm:mt-10">Get in touch!</h3>
                 <p className="block sm:hidden text-sm text-white-600 mt-3">
   Let’s build something amazing together!
 </p>
 
 <p className="hidden sm:block text-lg text-white-600 mt-3">
-  From crafting modern websites to building AI/ML-powered solutions, I bring your ideas to life with innovation and precision. Let’s create something extraordinary together!
+  I am open to MTCP collaboration opportunities, academic partnerships in AI for development, and conversations about applying machine learning to public sector challenges. If you are a researcher, policymaker, or fellow practitioner working at the intersection of AI and governance — I would love to connect.
 </p>
                 <form ref={formRef} onSubmit={handleSubmit} className="sm:mt-10 mt-5 flex flex-col sm:space-y-7 space-y-2">
                     <label className="space-y-3">
@@ -59,7 +59,7 @@ const Contact = () => {
                           onChange={handleChange}
                           required
                           className="field-input"
-                          placeholder="Jonh Doe"
+                          placeholder="Your full name."
                         ></input>
                     </label>
                     <label className="space-y-3">
@@ -71,7 +71,7 @@ const Contact = () => {
                           onChange={handleChange}
                           required
                           className="field-input"
-                          placeholder="johndoe@gmail.com"
+                          placeholder="xyz@gmail.com"
                         ></input>
                     </label>
                     <label className="space-y-3">
@@ -83,7 +83,7 @@ const Contact = () => {
                           required
                           rows={5}
                           className="field-input"
-                          placeholder="Hi, I wanna give you a job ..."
+                          placeholder="Your message here..."
                         ></textarea>
                     </label>
                     <button className="field-btn" type="submit" disabled={loading}>

@@ -20,7 +20,7 @@ const About = () => {
                     <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain " />
                     <div>
                       <p className="grid-headtext">Hi, I'm Taiba Shaikh</p>
-                      <p className="grid-subtext">Passionate data scientist and full-stack developer with expertise in AI/ML, creative web design, and data analytics. Combining tech leadership and innovative problem-solving to deliver impactful solutions and immersive experiences</p>
+                      <p className="grid-subtext">AI/ML Engineer and Data Science graduate from Mumbai, India — GPA 9.15/10. I specialise in building AI systems for public health, e-governance, and education. I developed a Malaysia Government Services Chatbot that uses NLP to improve citizen access to public services, and I am applying to MTCP 2026 to deepen my expertise in digital governance and bring Malaysia's best practices back to India's public sector.</p>
                     </div>
                 </div>
             </div>
@@ -28,9 +28,9 @@ const About = () => {
                 <div className="grid-container">
                     <img src="assets/grid2.png" alt="grid-2" className="w-full sm:w-[276px] h-fit object-contain" />
                     <div>
-                        <p className="grid-headtext">Tech Stack</p>
+                        <p className="grid-headtext">AI for Governance & Development</p>
                         <p className="grid-subtext">
-                        Proficient in Python, JavaScript, C, C++, and R, with expertise in data structures, algorithms, full-stack development, and database management. Skilled in AI/ML frameworks, data analytics, cloud platforms (AWS, Google Cloud), and tools like Git, Docker, and Kafka for efficient development and deployment.</p>
+                        Specialised in Python, NLP, LangChain, and transformer-based models for public sector applications. Experienced in deploying AI on AWS, GCP, and Azure. Focused on building solutions that serve citizens, support government decision-making, and advance development goals in South and Southeast Asia.</p>
 
                     </div>
                 </div>
@@ -51,13 +51,13 @@ const About = () => {
                     </div>
                     <div>
                         <p className="grid-headtext">
-                            I'm very flexible with time zone communications & locations
+                            Committed to India–Malaysia development cooperation
                         </p>
                         <p className="grid-subtext">
-                            I'm based in Maharashtra, India and open to remote work worldwide.
+                            Based in Mumbai, India. Applying to MTCP 2026 to study digital governance and AI-for-development in Malaysia. Post-programme, I am committed to returning to India and contributing to national e-governance initiatives and bilateral tech cooperation.
                         </p>
-                        <a href="#contact">
-                        <Button name="Contact Me" isBeam={true} containerClass="w-full mt-10" />
+                        <a href="https://drive.google.com/file/d/1-6o4A446iHlsMe1Uzg5l0-HswFP3B1Bx/view?usp=sharing">
+                        <Button name="View Resume" isBeam={true} containerClass="w-full mt-10" />
                         </a>
                     </div>
                 </div>
@@ -66,8 +66,8 @@ const About = () => {
                 <div className="grid-container">
                     <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
                     <div>
-                        <p className="grid-headtext">My Passion for Coding</p>
-                        <p className="grid-subtext">Programming isn't just my profession - it's my passion. i love to code and I am always looking for new ways to improve my skills. I am constantly learning new technologies, languages, and techniques to stay ahead of the curve. I am a firm believer in the power of technology to change the world and I am excited to be a part of that change.</p>
+                        <p className="grid-headtext">My mission: AI in service of people</p>
+                        <p className="grid-subtext">I believe the most meaningful application of AI is not in commercial products — it is in public services that reach the people who need them most. From improving diagnostic access in under-resourced hospitals to streamlining government information for everyday citizens, I build AI tools with development outcomes at their core. My goal through the Malaysia Technical Cooperation Programme is to study how Malaysia's MyDigital Blueprint has successfully integrated AI into governance — and to bring those learnings back to strengthen India's digital public infrastructure.</p>
 
                     </div>
                 </div>
@@ -82,8 +82,8 @@ const About = () => {
                             <p className="lg:text-2xl md:text-xl font-medium text-gray_gradient text-white">Copy Email</p>
                             
                         </div>
-                        <a href="https://drive.google.com/file/d/1-6o4A446iHlsMe1Uzg5l0-HswFP3B1Bx/view?usp=sharing">
-                        <Button name="View Resume" isBeam={true} containerClass="w-full mt-10" />
+                        <a href="#contact">
+                        <Button name="Contact Me" isBeam={true} containerClass="w-full mt-10" />
                         </a>
                     </div>
                 </div>

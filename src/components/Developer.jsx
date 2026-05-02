@@ -1,32 +1,35 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useMemo } from 'react';
 import { useAnimations, useFBX, useGLTF } from '@react-three/drei';
 
 const Developer = ({ animationName = 'idle', ...props }) => {
   const group = useRef();
   const { nodes, materials } = useGLTF('models/animations/developer.glb');
 
-  // Load animations
   const { animations: idleAnimation } = useFBX('models/animations/idle.fbx');
   const { animations: clappingAnimation } = useFBX('models/animations/clapping.fbx');
   const { animations: victoryAnimation } = useFBX('models/animations/victory.fbx');
+  const { animations: saluteAnimation } = useFBX('models/animations/salute.fbx');
 
+  useMemo(() => {
+    idleAnimation[0].name = 'idle';
+    clappingAnimation[0].name = 'clapping';
+    victoryAnimation[0].name = 'victory';
+    saluteAnimation[0].name = 'salute';
 
-  // Name animations for easier access
-  idleAnimation[0].name = 'idle';
-  clappingAnimation[0].name = 'clapping';
-  victoryAnimation[0].name = 'victory';
+    [idleAnimation[0], clappingAnimation[0], victoryAnimation[0], saluteAnimation[0]].forEach(clip => {
+      clip.tracks = clip.tracks.filter(track => !track.name.includes('Armature'));
+    });
+  }, []);
 
-
-  // Use animations with the group ref
-  const { actions } = useAnimations([idleAnimation[0],  clappingAnimation[0], victoryAnimation[0]], group);
+  const { actions } = useAnimations(
+    [idleAnimation[0], clappingAnimation[0], victoryAnimation[0], saluteAnimation[0]],
+    group
+  );
 
   useEffect(() => {
     if (actions[animationName]) {
-      // Play the selected animation
       actions[animationName].reset().fadeIn(0.5).play();
-      return () => actions[animationName].fadeOut(0.5);
-    } else {
-      console.warn(`Animation "${animationName}" not found.`);
+      return () => actions[animationName]?.fadeOut(0.5);
     }
   }, [animationName, actions]);
 
@@ -94,7 +97,6 @@ const Developer = ({ animationName = 'idle', ...props }) => {
   );
 };
 
-// Preload GLTF model
 useGLTF.preload('models/animations/developer.glb');
 
 export default Developer;

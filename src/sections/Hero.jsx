@@ -21,8 +21,8 @@ const Hero = () => {
   return (
     <section id="home" className="w-full min-h-screen flex flex-col relative">
         <div className="w-full mx-auto flex flex-col sm:mt-36 mt-20 c-space gap-3">
-            <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">Hi, I am Taiba<span className='waving-hand'>👋</span></p>
-            <p className="hero_tag text-gray_gradient sm:text-4xl ">Crafting innovation interactively</p>
+            <p className="sm:text-3xl text-2xl font-medium text-white text-center font-generalsans">Hi, I'm Taiba Shaikh<span className='waving-hand'>👋</span></p>
+            <p className="hero_tag text-gray_gradient sm:text-4xl ">AI for people. Data for development.</p>
         </div>
         <div className="w-full h-full absolute inset-0">
         {/* <Leva /> */}
@@ -49,8 +49,8 @@ const Hero = () => {
             </Canvas>
         </div>
         <div className="absolute bottom-7 left-0 right-0 w-full z-10 c-space">
-            <a href="#about" className="w-full">
-                <Button name="Let's work together" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
+            <a href="#work" className="w-full">
+                <Button name="View My Work" isBeam containerClass="sm:w-fit w-full sm:min-w-96"/>
             </a>
         </div>
     </section>

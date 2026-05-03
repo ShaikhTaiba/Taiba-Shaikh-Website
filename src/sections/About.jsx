@@ -56,7 +56,7 @@ const About = () => {
                         <p className="grid-subtext">
                             Based in Mumbai, India. Applying to MTCP 2026 to study digital governance and AI-for-development in Malaysia. Post-programme, I am committed to returning to India and contributing to national e-governance initiatives and bilateral tech cooperation.
                         </p>
-                        <a href="https://drive.google.com/file/d/1t1uemvIIad6e_s6P_XILhA3Yn96wV8TI/view?usp=sharing">
+                        <a href="https://drive.google.com/file/d/1LCE6c2zFxRLZy64EhvR95RkWsD0lG1Q9/view?usp=sharing">
                         <Button name="View Resume" isBeam={true} containerClass="w-full mt-10" />
                         </a>
                     </div>

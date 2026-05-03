@@ -146,7 +146,7 @@ export const navLinks = [
       desc: "An interactive Power BI dashboard analysing ATM transaction patterns and detecting fraudulent activity using statistical anomaly detection — contributing to financial security for everyday banking customers.",
       subdesc:
         'Protects ordinary citizens from financial fraud through data-driven anomaly detection in banking systems.',
-      href: 'https://github.com/ShaikhTaiba/Kidney-Disease-Image-Classifier',
+      href: 'https://drive.google.com/file/d/1Dea4MHc4rBb_vBTpHcK_a3YYnLF2L0LL/view?usp=sharing',
       texture: 'textures/project/project4.mp4',
       logo: 'assets/project-logo4.png',
       logoStyle: {
